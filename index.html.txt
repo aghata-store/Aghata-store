@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aghata Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff0f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d63384;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    .brands {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .brand {
+      background-color: white;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      width: 150px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Aghata Store</h1>
+  <p>Descubre lo mejor en belleza</p>
+</header>
+
+<section>
+  <h2>Marcas que amamos</h2>
+  <div class="brands">
+    <div class="brand">Trendy</div>
+    <div class="brand">Montoc</div>
+    <div class="brand">Ame</div>
+    <div class="brand">Dolce Bella</div>
+    <div class="brand">Bloomshell</div>
+    <div class="brand">Anik</div>
+    <div class="brand">Cositas Deliciosas</div>
+    <div class="brand">Purpure</div>
+    <div class="brand">Aruna</div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Aghata Store. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
